@@ -12,7 +12,7 @@ There are mainly three steps I have followed:
   (iii) Built an evaluation script to evaluate the model
   
   
-Dataset
+## Dataset
 
 The EgoHands dataset contains in total 4800 labeled images from 48 Google Glass videos. The
 ground-truth labels consist of polygons with hand segmentations and are provided as Matlab
@@ -21,10 +21,7 @@ some images might not contain any hand at all and you might want to omit these i
 is no train/val split in the original dataset and you should split it yourself.
 
 
-
-
-
-Model
+## Model
 
 The complete Mask R-CNN architecture is in model.py. However, to better adjust Mask R-CNN
 to EgoHands, you are free to modify model.py and use any tricks you learnt from any research literature. A train_model function can be found in model.py. You can use this function to train the model or you can make your own training pipeline if you want.
