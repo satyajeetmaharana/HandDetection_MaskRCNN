@@ -1,11 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Vision Meets ML Assignment 2
-
 # ## Training and Evaluating a Pre-Trained Mask R-CNN Model on a Custom Hands Dataset
 
-# #### *SUBMITTED BY : SATYAJEET MAHARANA (sm8235)*
+# #### *CREATED BY : SATYAJEET MAHARANA*
 
 # ## 1. See some images from out hands dataset
 
