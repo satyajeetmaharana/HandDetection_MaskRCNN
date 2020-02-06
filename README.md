@@ -7,6 +7,8 @@ This project is a modification of the Mask R-CNN codebase for hand detection.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/satyajeetmaharana/HandDetection_MaskRCNN/master)
 
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/satyajeetmaharana/HandDetection_MaskRCNN/blob/master/Mask%20R%20CNN%20Model%20for%20Hand%20Detection_Notebook.ipynb)
+
 1. You would need to download the preprocessed datasets from this link. 
 2. Open the notebook in either mybinder or Google Colab (https://colab.research.google.com/github/satyajeetmaharana/HandDetection_MaskRCNN/blob/master/Mask%20R%20CNN%20Model%20for%20Hand%20Detection_Notebook.ipynb)
 
