@@ -3,6 +3,12 @@
 This project is a modification of the Mask R-CNN codebase for hand detection.
 [https://github.com/tcnshonen/pytorch-mask-rcnn].
 
+# How to run the notebook
+
+1. You would need to download the preprocessed datasets from this link. 
+2. Open the notebook in either mybinder ([![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/satyajeetmaharana/HandDetection_MaskRCNN/master)
+) or Google Colab (https://colab.research.google.com/github/satyajeetmaharana/HandDetection_MaskRCNN/blob/master/Mask%20R%20CNN%20Model%20for%20Hand%20Detection_Notebook.ipynb)
+
 The Mask R-CNN model is trained with the EgoHands Dataset [http://vision.soic.indiana.edu/projects/egohands/]. 
 
 
@@ -25,4 +31,5 @@ is no train/val split in the original dataset and you should split it yourself.
 
 The complete Mask R-CNN architecture is in model.py. However, to better adjust Mask R-CNN
 to EgoHands, you are free to modify model.py and use any tricks you learnt from any research literature. A train_model function can be found in model.py. You can use this function to train the model or you can make your own training pipeline if you want.
+
 
